@@ -5,6 +5,7 @@ const Homepage = () => {
   return (
     <div>
       <div className="home-body">
+        {/* // Header with logo and navbar,  dropdown */}
         <div className="home-header">
           <div className="home-header-logo">
             <img src="p-logo.jpg" alt="" className="header-logo-img" />
@@ -23,6 +24,7 @@ const Homepage = () => {
           </div>
         </div>
         <div className="home-content-body">
+          {/* // Sidebar left with profile , dashboard ,logout section */}
           <div className="home-sidebar-left">
             <div className="sidebar-profile-sec">
               <img
@@ -83,6 +85,7 @@ const Homepage = () => {
               <img src="./logout.png" alt="" className="sidebar-logout-icon" />
             </button>
           </div>
+          {/* // center body with cards and headings ,payment plans  */}
           <div className="home-main-content">
             <div className="home-content-container">
               <div className="home-content-container-head">
@@ -100,6 +103,7 @@ const Homepage = () => {
                 </div>
               </div>
               <div className="home-content-container-cards">
+                {/* // payment Plan cards basic */}
                 <div className="home-cards-main-body">
                   <div className="home-card-head">
                     <h2 className="card-h2">Basic</h2>
@@ -144,6 +148,8 @@ const Homepage = () => {
                     <h3 className="card-body-h3">Explore Features</h3>
                   </div>
                 </div>
+                {/* // payment Plan cards standard */}
+
                 <div className="home-cards-main-body">
                   <div className="home-card-head">
                     <h2 className="card-h2">Standard</h2>
@@ -188,6 +194,9 @@ const Homepage = () => {
                     <h3 className="card-body-h3">Explore Features</h3>
                   </div>
                 </div>
+
+                {/* // payment Plan cards premium */}
+
                 <div className="home-cards-main-body">
                   <div className="home-card-head">
                     <h2 className="card-h2">Premium</h2>
@@ -233,8 +242,12 @@ const Homepage = () => {
                   </div>
                 </div>
               </div>
+              {/* /// bottom two cards  */}
               <div className="home-content-container-cardsbottom">
+                {/* //Bottom main card left */}
+
                 <div className="home-bottom-cards">
+                  {/* // inside Bottom main card left section */}
                   <div className="home-bottom-card-left">
                     <h5 className="card-bottom-h5-left">Free forever</h5>
                     <h2 className="card-bottom-h2">Free Starter</h2>
@@ -251,6 +264,8 @@ const Homepage = () => {
                       />
                     </button>
                   </div>
+                  {/* //inside Bottom main card right section */}
+
                   <div className="home-bottom-card-right">
                     <h6 className="bottom-card-right-h6">What you will get:</h6>
                     <h5 className="bottom-card-right-h5">
@@ -284,7 +299,11 @@ const Homepage = () => {
                     </h4>
                   </div>
                 </div>
+                {/* //Bottom main card right */}
+
                 <div className="home-bottom-cards">
+                  {/* //inside Bottom main card left section */}
+
                   <div className="home-bottom-card-left">
                     <h5 className="card-bottom-h5-right">Lets Connect</h5>
                     <h2 className="card-bottom-h2">Enterprise Plan</h2>
@@ -292,6 +311,7 @@ const Homepage = () => {
                       Effortlessily customize and fine tune services as your
                       need shift,ensuring the perfect tools for success
                     </h6>
+
                     <button className="bottom-card-button-right">
                       Contact Us{" "}
                       <img
@@ -301,6 +321,8 @@ const Homepage = () => {
                       />
                     </button>
                   </div>
+                  {/* //inside Bottom main card right section */}
+
                   <div className="home-bottom-card-right">
                     <h6 className="bottom-card-right-h6">What you will get:</h6>
                     <h5 className="bottom-card-right-h5">
@@ -322,18 +344,28 @@ const Homepage = () => {
                   </div>
                 </div>
               </div>
+              {/* //main body warninng message */}
               <div className="home-content-footer">
                 * Some unique features are provided as add-ons with idividual
                 plans for each features.
               </div>
             </div>
           </div>
+          {/* //Side bar right with bell button and add button */}
           <div className="home-sidebar-right">
             <button className="right-side-bell-add">
-              <img src="right-side-bell.png" alt="" className="right-side-bell-add-img" />
+              <img
+                src="right-side-bell.png"
+                alt=""
+                className="right-side-bell-add-img"
+              />
             </button>
             <button className="right-side-bell-add">
-              <img src="right-side-plus.png" alt="" className="right-side-bell-add-img" />
+              <img
+                src="right-side-plus.png"
+                alt=""
+                className="right-side-bell-add-img"
+              />
             </button>
           </div>
         </div>
